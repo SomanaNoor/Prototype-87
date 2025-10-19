@@ -106,13 +106,9 @@ const ProjectRoutes = () => {
 ## 👩‍💻 Authors
 
 Syeda Mehak Shah Hussain,
-
 Somana Noor, 
-
 Diya vijay, 
-
 Marina Lulina, 
-
 Aiza Talha
 
 📍 Developed for Innovation Hackathon 2025
