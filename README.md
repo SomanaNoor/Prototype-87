@@ -8,7 +8,7 @@ This prototype features modular components, live alert integration, and an open-
 ## 🚀 Live Overview
 
 > If GitHub Pages deployment is active:  
-> 🌐 [Live Demo](https://somananoor.github.io/Prototype-87/)
+> 🌐 [Live Demo](https://github.com/SomanaNoor/Prototype-87)
 
 If the live demo fails to load, follow the **local setup instructions** below to run it manually.
 
