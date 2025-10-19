@@ -38,25 +38,6 @@ If the live demo fails to load, follow the **local setup instructions** below to
 
 ---
 
-## ⚙️ Local Setup
-
-To run this project locally:
-
-```bash
-# 1️⃣ Clone this repository
-git clone https://github.com/SomanaNoor/Prototype-87.git
-cd Prototype-87
-
-# 2️⃣ Install dependencies
-npm install
-
-# 3️⃣ Run the development server
-npm run dev
-
-# 4️⃣ Open in your browser
-Select Open in Browser or Enter 'o' on the terminal
-# Default: http://localhost:4028/
-
 ## 📁 Project Structure
 
 ```
@@ -80,6 +61,28 @@ Prototype-87/
 └── README.md
 ```
 
+---
+
+## ⚙️ Local Setup
+
+To run this project locally:
+
+```bash
+
+# 1️⃣ Clone this repository
+git clone https://github.com/SomanaNoor/Prototype-87.git
+cd Prototype-87
+
+# 2️⃣ Install dependencies
+npm install
+
+# 3️⃣ Run the development server
+npm run dev
+
+# 4️⃣ Open in your browser
+Select Open in Browser or Enter 'o' on the terminal
+# Default: http://localhost:4028/
+
 ## 🧩 Adding Routes
 
 To add new routes to the application, update the `Routes.jsx` file:
@@ -102,8 +105,16 @@ const ProjectRoutes = () => {
 
 ## 👩‍💻 Authors
 
-Syeda Mehak Shah Hussain, 
-Somana Noor, Diya vijay, 
-Marina Lulina, Aiza Talha
+Syeda Mehak Shah Hussain,
+
+Somana Noor, 
+
+Diya vijay, 
+
+Marina Lulina, 
+
+Aiza Talha
+
 📍 Developed for Innovation Hackathon 2025
+
 🎓 Murdoch University Dubai
