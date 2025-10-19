@@ -1,57 +1,83 @@
-# React
+# 🌍 CIF-AI Dashboard — Global Disaster Overview
 
-A modern React-based project utilizing the latest frontend technologies and tools for building responsive web applications.
+**CIF-AI Dashboard** is an interactive real-time disaster visualization platform built with **React + Vite + Leaflet.js**, designed for tracking and analyzing global natural disasters such as floods, earthquakes, heat waves, and droughts.  
+This prototype features modular components, live alert integration, and an open-source base map (no billing required).
 
-## 🚀 Features
+---
 
-- **React 18** - React version with improved rendering and concurrent features
-- **Vite** - Lightning-fast build tool and development server
-- **Redux Toolkit** - State management with simplified Redux setup
-- **TailwindCSS** - Utility-first CSS framework with extensive customization
-- **React Router v6** - Declarative routing for React applications
-- **Data Visualization** - Integrated D3.js and Recharts for powerful data visualization
-- **Form Management** - React Hook Form for efficient form handling
-- **Animation** - Framer Motion for smooth UI animations
-- **Testing** - Jest and React Testing Library setup
+## 🚀 Live Overview
 
-## 📋 Prerequisites
+> If GitHub Pages deployment is active:  
+> 🌐 [Live Demo](https://somananoor.github.io/Prototype-87/)
 
-- Node.js (v14.x or higher)
-- npm or yarn
+If the live demo fails to load, follow the **local setup instructions** below to run it manually.
 
-## 🛠️ Installation
+---
 
-1. Install dependencies:
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
-   
-2. Start the development server:
-   ```bash
-   npm start
-   # or
-   yarn start
-   ```
+## 🧩 Features
+
+- 🌎 **Interactive Map Visualization** — powered by Leaflet & OpenStreetMap  
+- 🔔 **Live Alerts Panel** — displays current disaster updates by severity  
+- 🧭 **Location Tree Navigation** — drill down to countries and cities dynamically  
+- 📊 **Dynamic Metrics Dashboard** — active disasters, affected population, infrastructure risk, displacement  
+- 💡 **Open Data Ready** — accepts external CSV datasets for alerts  
+- 💻 **Optimized Frontend** — built with Vite + React + Tailwind CSS
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technology |
+|-----------|-------------|
+| Frontend Framework | React (Vite) |
+| Styling | Tailwind CSS |
+| Map Engine | Leaflet + OpenStreetMap |
+| Build Tool | Vite |
+| Deployment | GitHub Pages via Actions |
+| Data Input | CSV / Static JSON |
+
+---
+
+## ⚙️ Local Setup
+
+To run this project locally:
+
+```bash
+# 1️⃣ Clone this repository
+git clone https://github.com/SomanaNoor/Prototype-87.git
+cd Prototype-87
+
+# 2️⃣ Install dependencies
+npm install
+
+# 3️⃣ Run the development server
+npm run dev
+
+# 4️⃣ Open in your browser
+Select Open in Browser or Enter 'o' on the terminal
+# Default: http://localhost:4028/
 
 ## 📁 Project Structure
 
 ```
-react_app/
-├── public/             # Static assets
+Prototype-87/
+├── public/
+│   ├── data/                  # CSV datasets for alerts
+│   ├── assets/                # Images, icons, etc.
+│   └── favicon.ico
 ├── src/
-│   ├── components/     # Reusable UI components
-│   ├── pages/          # Page components
-│   ├── styles/         # Global styles and Tailwind configuration
-│   ├── App.jsx         # Main application component
-│   ├── Routes.jsx      # Application routes
-│   └── index.jsx       # Application entry point
-├── .env                # Environment variables
-├── index.html          # HTML template
-├── package.json        # Project dependencies and scripts
-├── tailwind.config.js  # Tailwind CSS configuration
-└── vite.config.js      # Vite configuration
+│   ├── components/            # Shared UI components
+│   │   ├── ui/                # Reusable UI elements (buttons, header, checkbox)
+│   │   └── map/               # Leaflet map canvas
+│   ├── pages/                 # Individual dashboard pages
+│   │   └── global-disaster-overview/
+│   │       ├── components/    # Submodules for overview page
+│   │       └── index.jsx
+│   ├── styles/                # Tailwind and global styles
+│   └── utils/                 # Data loaders and helpers
+├── package.json
+├── vite.config.mjs
+└── README.md
 ```
 
 ## 🧩 Adding Routes
@@ -74,34 +100,10 @@ const ProjectRoutes = () => {
 };
 ```
 
-## 🎨 Styling
+## 👩‍💻 Authors
 
-This project uses Tailwind CSS for styling. The configuration includes:
-
-- Forms plugin for form styling
-- Typography plugin for text styling
-- Aspect ratio plugin for responsive elements
-- Container queries for component-specific responsive design
-- Fluid typography for responsive text
-- Animation utilities
-
-## 📱 Responsive Design
-
-The app is built with responsive design using Tailwind CSS breakpoints.
-
-
-## 📦 Deployment
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-## 🙏 Acknowledgments
-
-- Built with [Rocket.new](https://rocket.new)
-- Powered by React and Vite
-- Styled with Tailwind CSS
-
-Built with ❤️ on Rocket.new
+Syeda Mehak Shah Hussain, 
+Somana Noor, Diya vijay, 
+Marina Lulina, Aiza Talha
+📍 Developed for Innovation Hackathon 2025
+🎓 Murdoch University Dubai
