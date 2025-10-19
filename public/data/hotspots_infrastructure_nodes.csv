@@ -1,0 +1,12 @@
+node_id,city_id,type,name,lat,lon,criticality,failure_prob,people_inside_est,displaced_est,is_shelter,shelter_capacity,shelter_occupied,operational_status,status_reason,owner,last_updated
+DXB_HSP_01,UAE_DXB,HOSPITAL,Rashid Hospital,25.264,55.308,5,0.35,1200,800,false,,,Degraded,Backup generators engaged,Public Health,2025-10-19T04:45:00Z
+DXB_POW_01,UAE_DXB,SUBSTATION,DEWA Substation A,25.190,55.265,4,0.55,35,1200,false,,,Degraded,Flooded access road,DEWA,2025-10-19T04:45:00Z
+DXB_BRD_01,UAE_DXB,BRIDGE,Al Garhoud Bridge,25.233,55.348,3,0.40,120,250,false,,,Normal,High winds expected,Transport,2025-10-19T04:45:00Z
+DXB_SHE_01,UAE_DXB,SHELTER,Academic City Gym,25.118,55.408,2,0.10,80,0,true,2500,300,Normal,Available capacity,Emirate,2025-10-19T04:45:00Z
+RUH_HSP_01,SAU_RUH,HOSPITAL,King Saud Med City,24.687,46.674,5,0.25,1500,650,false,,,Normal,Monitoring drainage,MOH,2025-10-19T04:45:00Z
+RUH_SHE_01,SAU_RUH,SHELTER,Exhibition Center Hall 2,24.732,46.700,2,0.08,60,0,true,4000,450,Normal,Available capacity,City,2025-10-19T04:45:00Z
+MNL_HSP_01,PHL_MNL,HOSPITAL,Philippine General Hospital,14.577,120.987,5,0.62,1800,1300,false,,,Evacuating,Structural inspection ongoing,DOH,2025-10-19T04:45:00Z
+MNL_PWR_01,PHL_MNL,SUBSTATION,Meralco Sta. Mesa,14.602,121.012,4,0.57,40,2200,false,,,Degraded,Transformer alarms,Meralco,2025-10-19T04:45:00Z
+MNL_SHE_01,PHL_MNL,SHELTER,Araneta Coliseum,14.619,121.056,2,0.12,120,0,true,12000,3500,Normal,Receiving evacuees,QC,2025-10-19T04:45:00Z
+CEB_HSP_01,PHL_CEB,HOSPITAL,Chong Hua Hospital,10.309,123.893,4,0.28,900,300,false,,,Normal,On standby,DOH,2025-10-19T04:45:00Z
+CEB_SHE_01,PHL_CEB,SHELTER,Waterfront Hotel Ballrooms,10.318,123.904,2,0.10,70,0,true,5000,800,Normal,Available capacity,LGU,2025-10-19T04:45:00Z

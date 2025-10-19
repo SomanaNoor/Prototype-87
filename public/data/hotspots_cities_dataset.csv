@@ -1,0 +1,6 @@
+continent,country,city,city_id,lat,lon,population,exposed_pop_est,displaced_est,hazard_type,severity,eta_hours,confidence,event_id,last_updated
+Asia,United Arab Emirates,Dubai,UAE_DXB,25.2048,55.2708,3500000,820000,52000,Cyclone,Critical,18,0.90,EVT_2025_GCC_001,2025-10-19T04:50:00Z
+Asia,Saudi Arabia,Riyadh,SAU_RUH,24.7136,46.6753,7600000,420000,22000,Flood,Medium,36,0.75,EVT_2025_GCC_002,2025-10-19T04:50:00Z
+Asia,Saudi Arabia,Jeddah,SAU_JED,21.4858,39.1925,4100000,160000,8000,Flood,Low,30,0.60,EVT_2025_GCC_002,2025-10-19T04:50:00Z
+Asia,Philippines,Manila,PHL_MNL,14.5995,120.9842,13900000,2400000,180000,Earthquake,High,0,0.94,EVT_2025_PHL_EQ_003,2025-10-19T04:50:00Z
+Asia,Philippines,Cebu,PHL_CEB,10.3157,123.8854,3300000,690000,31000,Cyclone,High,6,0.91,EVT_2025_PHL_TY_004,2025-10-19T04:50:00Z

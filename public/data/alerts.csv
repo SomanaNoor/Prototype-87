@@ -1,0 +1,4 @@
+id,name,lat,lon,severity,displaced,confidence
+Dubai,Dubai,25.2048,55.2708,Critical,520,0.9
+AbuDhabi,Abu Dhabi,24.4539,54.3773,High,260,0.85
+Riyadh,Riyadh,24.7136,46.6753,Medium,220,0.78

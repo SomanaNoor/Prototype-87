@@ -1,0 +1,27 @@
+id,name,lat,lon,severity,displaced,confidence,hazard
+UAE,United Arab Emirates,24.45,54.37,High,1250,0.85,Flash Flood
+Dubai,Dubai,25.20,55.27,Critical,520,0.90,Urban Flood
+Pakistan,Pakistan,30.3753,69.3451,High,25000,0.82,Monsoon Flood
+Karachi,Karachi,24.8607,67.0011,High,6200,0.84,Coastal Flood
+Lahore,Lahore,31.5204,74.3587,Medium,3400,0.78,Riverine Flood
+Islamabad,Islamabad,33.6844,73.0479,Medium,1800,0.76,Flash Flood
+Peshawar,Peshawar,34.0151,71.5249,Low,900,0.70,Flash Flood
+Quetta,Quetta,30.1798,66.9750,Low,650,0.68,Landslide
+India,India,20.5937,78.9629,High,48000,0.86,Monsoon Flood
+Mumbai,Mumbai,19.0760,72.8777,High,12000,0.88,Urban Flood
+Delhi,Delhi,28.6139,77.2090,Medium,5200,0.80,Heatwave
+Kolkata,Kolkata,22.5726,88.3639,High,7400,0.83,Riverine Flood
+Chennai,Chennai,13.0827,80.2707,High,6100,0.84,Cyclone Flood
+Hyderabad,Hyderabad,17.3850,78.4867,Medium,3300,0.77,Urban Flood
+Bengaluru,Bengaluru,12.9716,77.5946,Low,1500,0.74,Urban Flood
+Ahmedabad,Ahmedabad,23.0225,72.5714,Medium,2900,0.75,Riverine Flood
+Guwahati,Guwahati,26.1445,91.7362,High,4100,0.79,Riverine Flood
+Visakhapatnam,Visakhapatnam,17.6868,83.2185,Medium,2100,0.76,Cyclone
+Kochi,Kochi,9.9312,76.2673,Medium,1900,0.75,Coastal Flood
+Bangladesh,Bangladesh,23.6850,90.3563,Critical,55000,0.88,Monsoon Flood
+Dhaka,Dhaka,23.8103,90.4125,Critical,22000,0.90,Urban Flood
+Chattogram,Chattogram,22.3569,91.7832,High,8200,0.84,Cyclone
+Sylhet,Sylhet,24.8949,91.8687,High,7600,0.83,Riverine Flood
+Khulna,Khulna,22.8456,89.5403,Medium,3000,0.78,Coastal Flood
+Rajshahi,Rajshahi,24.3636,88.6241,Medium,2600,0.76,Riverine Flood
+Barisal,Barisal,22.7010,90.3535,Medium,2400,0.75,Coastal Flood
