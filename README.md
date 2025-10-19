@@ -83,6 +83,7 @@ npm run dev
 Select Open in Browser or Enter 'o' on the terminal
 # Default: http://localhost:4028/
 
+```
 
 ## 👩‍💻 Authors
 
