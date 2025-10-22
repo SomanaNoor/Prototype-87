@@ -87,11 +87,13 @@ Select Open in Browser or Enter 'o' on the terminal
 
 ## 👩‍💻 Authors
 
+Main Developers:
 Syeda Mehak Shah Hussain,
-Somana Noor, 
+Somana Noor
+
+Documentation:
 Diya vijay, 
-Marina Lulina, 
-Aiza Talha
+Marina Lulina
 
 📍 Developed for Innovation Hackathon 2025
 
